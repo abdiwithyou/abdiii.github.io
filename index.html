@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website abdi</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        color: #fff;
+        background: #000;
+      }
+      header {
+        background: linear-gradient(90deg, #201e22, #1ce7e7);
+        color: #ffffffec;
+        padding: 20px 10px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px 0;
+      }
+      .hero {
+        text-align: center;
+        padding: 50px 0;
+        background: #000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      .hero img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .hero h2 {
+        margin: 20px 0 10px;
+        font-size: 2em;
+        color: #007bff;
+      }
+      .hero p {
+        font-size: 18px;
+        color: #fff;
+      }
+      .projects {
+        margin: 40px 0;
+      }
+      .projects h3 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: #007bff;
+        font-weight: 600;
+      }
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      .project-item {
+        background: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .project-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+      .project-item h4 {
+        margin-bottom: 10px;
+        color: #007bff;
+      }
+      .project-item p {
+        color: #fff;
+      }
+      .contact {
+        margin: 40px 0;
+        text-align: center;
+      }
+      .contact h3 {
+        margin-bottom: 10px;
+        color: #007bff;
+        font-weight: 600;
+      }
+      .contact a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      footer {
+        background: linear-gradient(90deg, #000, #28ddbf);
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+        box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+      }
+      footer p {
+        margin: 0;
+      }
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .hero img {
+          width: 120px;
+          height: 120px;
+        }
+        .hero h2 {
+          font-size: 1.5em;
+        }
+        .hero p {
+          font-size: 16px;
+        }
+      }
+      @media (max-width: 480px) {
+        header {
+          padding: 15px 10px;
+        }
+        header h1 {
+          font-size: 1.5em;
+        }
+        .hero {
+          padding: 30px 0;
+        }
+        .hero img {
+          width: 100px;
+          height: 100px;
+        }
+        .hero h2 {
+          font-size: 1.2em;
+        }
+        .hero p {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>About me</h1>
+    </header>
+
+    <div class="container">
+      <section class="hero">
+        <img src="lilu.jpg" alt="Foto Profil" />
+        <h2>Abdi al jabbar</h2>
+        <p>Perkernalkan nama saya Abdi al jabbar, dan hobi saya coding</p>
+      </section>
+
+      <section class="projects">
+        <h3>
+          Proyek yang sedang saya kerjakan, dan masih dalam tahap pengembangan
+        </h3>
+        <div class="project-grid">
+          <div class="project-item">
+            <h4>Pembuatan bot untuk whatsapp</h4>
+            <p>
+              Membuat bot untuk whatsapp, dan digunakan untuk keperluan pribadi
+              dan bisnis saya, kadang digunakan untuk balas chat, agar tidak
+              dikira menghilang &#128511;
+            </p>
+          </div>
+          <div class="project-item">
+            <h4>Pembuatan aplikasi android</h4>
+            <p>
+              Membuat aplikasi android, lebih tepatnya sebuah game, gamenya
+              nanti mirip dengan freefire,pubg, call of duty dan lainya, agar
+              mendapatkan pasive income &#128517;
+            </p>
+          </div>
+          <div class="project-item">
+            <h4>Pembuatan website</h4>
+            <p>
+              Sebernanya saya sudah bisa membuat website sendiri, akan tetapi
+              masih web statis, saya rencana kedepanya ingin membuat web dinamis
+              juga, agar bisa menjadi fullstack developer &#128526;
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h3>Kontak</h3>
+        <p>
+          Email:
+          <a href="mailto:abdisaja985@gmail.com">abdisaja985@gmail.com</a>
+        </p>
+        <p>
+          Instagram:
+          <a
+            href="https://www.instagram.com/abdiiiwithyou/profilecard/?igsh=MXN3Nndyc2J4YmVuag=="
+            >abdiiwithyou</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Abdi</p>
+    </footer>
+  </body>
+</html>
